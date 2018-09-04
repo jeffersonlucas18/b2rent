@@ -710,6 +710,7 @@
             img {
                 max-width: 100% !important;
                 height: auto !important;
+                
             }
             .pixfort_normal_1 .img_style {
                 width: 100%;
@@ -766,6 +767,7 @@
                 float: none;
                 text-align: center;
                 padding-bottom: 20px;
+            
             }
             .pixfort_app_3 .phones_style img {
                 float: none;
