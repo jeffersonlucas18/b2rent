@@ -231,9 +231,19 @@
 
 		/*Texts And Titles*/
 	 
-		.pixfort_text_4 h4 , .pixfort_text_3 h4 ,  .pixfort_text_2 h4 ,.pixfort_text_2_1 h4, .pixfort_medical_3 h4{ font-weight: bold;line-height: 35px;font-size: 18px;color:#444;   }
-		.pixfort_text_4 p , .pixfort_text_3 p, .pixfort_text_2 p, .pixfort_text_2_1 p, .pixfort_medical_3 p { font-weight: normal;line-height: 26px;font-size: 14px;color:#999;   }
-		.pixfort_text_4 .content_div , .pixfort_text_3 .content_div, .pixfort_text_2 .content_div, .pixfort_text_2_1 .content_div, .pixfort_medical_3 .content_div { padding: 25px 0;}
+		.pixfort_text_4 h4 , .pixfort_text_3 h4 ,  .pixfort_text_2 h4 ,.pixfort_text_2_1 h4, .pixfort_medical_3 h4{ 
+			font-weight: bold;
+			line-height: 35px;
+			font-size: 18px;color:#444; 
+		  }
+		.pixfort_text_4 p , .pixfort_text_3 p, .pixfort_text_2 p, .pixfort_text_2_1 p, .pixfort_medical_3 p {
+			
+			font-weight: normal;
+			line-height: 26px;
+			font-size: 14px;
+			color:#999;
+		}
+		.pixfort_text_4 .content_div , .pixfort_text_3 .content_div, .pixfort_text_2 .content_div, .pixfort_text_2_1 .content_div, .pixfort_medical_3 .content_div { padding: 0px 0;}
 		.text_3_button , .text_3_button:visited  { 
 			
 			font-weight: bold;
@@ -725,7 +735,9 @@ color: rgb(255, 255, 255); font-size: 18px;  background-color: rgb(247, 148, 29)
 
 
 
-
+	@media screen and (max-width: 640px) {
+		.big_padding { padding: 0px 0; }
+	}
 	
 
 	.facebook_bg { background: #3b5998; }
@@ -738,7 +750,7 @@ color: rgb(255, 255, 255); font-size: 18px;  background-color: rgb(247, 148, 29)
 	.extra_padding { padding: 120px 0; }
 	.big_padding { padding: 60px 0; }
 	.normal_padding { padding: 30px 0; }
-	.padding_25 { padding: 25px 0; }
+	.padding_25 { padding: 0px 0; }
 	.small_padding { padding: 20px 0; }
 	.extra_small_padding { padding: 10px 0; }
 	.h_padding { padding-left: 20px;padding-right: 20px; }
@@ -779,12 +791,15 @@ color: rgb(255, 255, 255); font-size: 18px;  background-color: rgb(247, 148, 29)
 	.title_140 { font-size: 140px;line-height: 145px; }
 	.title_70 { font-size: 70px;line-height: 75px; }
 	.title_56 { font-size: 56px;line-height: 65px; }
-	.big_title { font-size: 48px;line-height: 52px; }
+	#big_title { font-size: 40px;line-height: 52px; }
+	#big_title { font-size: 40px;line-height: 52px; }
 	.normal_title { font-size: 30px;line-height: 35px; }
 	.big_text { font-size: 22px;line-height: 30px; }
 	.normal_text { font-size: 16px;line-height: 24px; }
 	.small_text { font-size: 14px;line-height: 22px; }
-	
+	.font{
+		font-size: 18px;
+	}
 	.center_text { text-align: center; }
 	.left_text { text-align: left !important; }
 	.right_text { text-align: right; }
@@ -1110,4 +1125,19 @@ color: rgb(255, 255, 255); font-size: 18px;  background-color: rgb(247, 148, 29)
 		.pix_builder_bg {
 		    background-attachment:scroll !important;
 		}
+
+		.big_padding {
+			 padding: 20px 0;
+		 }
+
+		 #selob2 {
+			 padding-left: 50px;
+			
+		 }
+
+		 #editContent-one {
+			padding-top: 0px;
+		 }
+		
+		 
 	}
