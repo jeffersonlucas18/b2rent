@@ -3,11 +3,19 @@
         left: 30px;
     }
 
-    .big_title {
-        font-size: 30px;
+    #big_title {
+        font-size: 34px;
+        line-height: 52px;
     }
 
-    .big_title2 {
-        font-size: 30px;
+    #big_title2 {
+        font-size: 34px;
+        line-height: 52px;
     }
+    #big_title { 
+        font-size: 34px;
+        line-height: 52px; 
+    }
+
 }
+

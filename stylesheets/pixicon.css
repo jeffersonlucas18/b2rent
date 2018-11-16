@@ -16,7 +16,7 @@
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
-	line-height: 1;
+	
 
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
@@ -906,7 +906,9 @@
 	content: "\e63f";
 }
 .pixicon-google-drive:before {
-	content: "\e640";
+	content: "\e
+	
+	";
 }
 .pixicon-facebook2:before {
 	content: "\e641";
