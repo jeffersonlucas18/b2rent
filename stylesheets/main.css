@@ -800,7 +800,7 @@ color: rgb(255, 255, 255); font-size: 18px;  background-color: rgb(247, 148, 29)
 	.font{
 		font-size: 18px;
 	}
-	
+	.center_text { text-align: center; }
 	.left_text { text-align: left !important; }
 	.right_text { text-align: right; }
 	.margin_bottom { margin-bottom: 10px;display: inline-block; }
@@ -833,61 +833,18 @@ color: rgb(255, 255, 255); font-size: 18px;  background-color: rgb(247, 148, 29)
 
 	 .firas99 { display: inline-block; background: #eee;float: left; }
 
-
+	 
 	 
 
-	 .intro_arrow, 
-	 .intro_arrow:hover,
-	 .intro_arrow:focus,
-	  .intro_arrow:visited {
-		   border: 2px solid #fff;
-		   border-radius: 100%;
-		   width: 40px;
-		   height: 40px;
-		   display: inline-block;
-		   line-height: 40px;
-		   font-size: 20px;
-		   margin: 30px 0;
-		   text-decoration: none;
-		   color: #fff;
-		   margin-left: 458px;
-		   text-align: center;
-		 }
-
-		 @media (max-width: 1124px) {
-
-	 .intro_arrow, 
-	 .intro_arrow:hover,
-	 .intro_arrow:focus,
-	  .intro_arrow:visited {
-		   border: 2px solid #fff;
-		   border-radius: 100%;
-		   width: 40px;
-		   height: 40px;
-		   display: inline-block;
-		   line-height: 40px;
-		   font-size: 20px;
-		   margin: 30px 0;
-		   text-decoration: none;
-		   color: #fff;
-		   margin-left: 130px;
-		   text-align: center;
-		 }
-		 }
+	 .intro_arrow, .intro_arrow:hover, .intro_arrow:focus, .intro_arrow:visited { border: 2px solid #fff;border-radius: 100%;width: 40px;height: 40px;display: inline-block;line-height: 40px;font-size: 20px;margin: 30px 0;text-decoration: none;color: #fff; }
 
 
 	/*  Buttons  */
-	.pix_button, .pix_button:visited, .pix_button:focus { 
-		text-decoration: none;
-		padding: 12px 16px;
-		border-radius: 3px;margin: 5px 0;display: inline-block;
-		width: max-content;
-		float: right;
+	.pix_button, .pix_button:visited, .pix_button:focus { text-decoration: none;padding: 12px 16px;border-radius: 3px;margin: 5px 0;display: inline-block;
 		-webkit-transition:all .2s linear;
 		-moz-transition:all .2s linear;
 		-ms-transition:all .2s linear;
-		-o-transition:all .2s linear;
-
+		-o-transition:all .2s linear
 	}
 	.small_button, .small_button:visited, .small_button:focus { padding: 8px 12px;}
 	.small_wide_button, .small_wide_button:visited, .small_wide_button:focus { padding: 8px 25px;}
@@ -904,7 +861,7 @@ color: rgb(255, 255, 255); font-size: 18px;  background-color: rgb(247, 148, 29)
 	.pix_button_flat { box-shadow: 0px -3px rgba(0,0,0,0.2) inset; }
 	.pix_button_flat2 { box-shadow: 0px -3px rgba(255,255,255,0.4) inset; }
 
-	.pix_button_line { box-shadow: 0px 0px 0px 2px inset; margin-left: 208px; }
+	.pix_button_line { box-shadow: 0px 0px 0px 2px inset; }
 	.blue_border_button, .blue_border_button i { color: #2dc0e8 !important  }
 	.white_border_button, .white_border_button i { color: #fff !important  }
 	
@@ -1174,13 +1131,14 @@ color: rgb(255, 255, 255); font-size: 18px;  background-color: rgb(247, 148, 29)
 		 }
 
 		 #selob2 {
-			 padding-left: 50px;
+			 padding-left: 10px;
 			
 		 }
 
 		 #editContent-one {
-			padding-top: 0px;
-		 }
-
 		
-}
+			padding-left: 0px;
+		 }
+		
+		 
+	}
