@@ -1133,6 +1133,12 @@ color: rgb(255, 255, 255); font-size: 18px;  background-color: rgb(247, 148, 29)
 			background-size:cover; 
 		}
 
+
+		#selob2 {
+			padding-left: 10px;
+			margin-left: 860px;
+		}
+
 	@media (max-width: 1124px) {
 		.pix_builder_bg {
 		    background-attachment:scroll !important;
@@ -1143,13 +1149,19 @@ color: rgb(255, 255, 255); font-size: 18px;  background-color: rgb(247, 148, 29)
 		 }
 
 		 #selob2 {
-			 padding-left: 10px;
 			
 		 }
 
 		 #editContent-one {
-		
-			padding-left: 0px;
+			text-align: center;
+		 }
+
+		 #editContent-two {
+			text-align: center;
+		 }
+
+		 #editContent-three {
+			text-align: center;
 		 }
 		
 		 #big_title1 {
@@ -1190,6 +1202,11 @@ color: rgb(255, 255, 255); font-size: 18px;  background-color: rgb(247, 148, 29)
 		#big_title9 {
             font-size: 34px;
 			line-height: 45px;
+		}
+
+		.content_div {
+			width: 100%;
+	       margin-right: -900px;
 		}
 	}
 
